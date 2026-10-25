@@ -12,7 +12,7 @@ Telegram: @poslednaya_eth
 
 **7 public findings: 4 High, 3 Medium | 3 protocols | 2 platforms**
 
-Portfolio: [code4rena](https://code4rena.com/@poslednaya) | [sherlock](https://audits.sherlock.xyz/watson/poslednaya)  
+Auditor profiles: [code4rena](https://code4rena.com/@poslednaya) | [sherlock](https://audits.sherlock.xyz/watson/poslednaya)  
 
 | Date | Project | Type | Chain | Engagement | Findings |
 | --- | --- | --- | --- | --- | --- |
