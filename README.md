@@ -1,14 +1,19 @@
-I audit smart contracts on the EVM with my own private formal prover, `pevm` (poslednaya-evm).  
+# Formal verification of EVM smart contracts
 
-`pevm` works on bytecode lvl, uses symbolic execution, model checking, and SMT solvers to verify bytecode level of smart contracts.  
-`pevm`, `Certora`, `KEVM` use different models of EVM internals, simplifications, assumptions.  
+I audit smart contracts on the EVM with my own private formal prover, **pevm** (poslednaya-evm).  
+
+Tools like **pevm**, **Certora**, **KEVM** use different models of EVM internals, simplifications, assumptions.  
 The goal is to achieve complementary verification coverage and perform more thorough smart contract analysis.  
 
-Telegram: @poslednaya_eth
+Telegram: @poslednaya_eth  
 
-## Security Research Track Record
+
+# Public Findings
 
 **7 public findings: 4 High, 3 Medium | 3 protocols | 2 platforms**
+
+[code4rena](https://code4rena.com/@poslednaya)  
+[sherlock](https://audits.sherlock.xyz/watson/poslednaya)  
 
 | Date | Project | Type | Chain | Engagement | Findings |
 | --- | --- | --- | --- | --- | --- |
@@ -16,7 +21,8 @@ Telegram: @poslednaya_eth
 | 2024 Apr | [DYAD](https://github.com/code-423n4/2024-04-dyad) | Stablecoin | EVM | [Code4rena](https://github.com/code-423n4/2024-04-dyad-findings) | [H-01](https://github.com/code-423n4/2024-04-dyad-findings/issues/1133) · [H-03](https://github.com/code-423n4/2024-04-dyad-findings/issues/1001) |
 | 2024 Mar | [Axis Finance](https://github.com/sherlock-audit/2024-03-axis-finance) | Auction Protocol | EVM | [Sherlock](https://github.com/sherlock-audit/2024-03-axis-finance-judging) | [High](https://github.com/sherlock-audit/2024-03-axis-finance-judging/issues/53) · [Medium](https://github.com/sherlock-audit/2024-03-axis-finance-judging/issues/241) |
 
+# Private Findings
 
-1. Current Work
 
-poslednaya — private EVM prover, WIP. Здесь ты рассказываешь о symbolic execution, SMT и альтернативных моделях memory/storage.
+
+
